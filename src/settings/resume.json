@@ -1,0 +1,232 @@
+{
+    "basics": {
+        "name": "Jake Snell",
+        "label": "Web Developer",
+        "email": "jeremiahjakesnell@gmail.com",
+        "phone": "(325) 428-8427",
+        "picture": "JS_Logo.svg",
+        "job1": "Developer",
+        "job2": "Engineer",
+        "description": "",
+        "summary": "I am a confident, disciplined, and energetic person with a strong work ethic and desire to contribute at the highest level.  I have the ability to learn fast and be an asset to any organization that I work for.  I became a software developer because I am really a problem solver at heart. One of my biggest skills is finding solutions to difficult situations. I am trying to become a better developer by applying my current knowledge and always looking for ways to improve my knowledgebase.",
+        "keywords": "personal,website,portfolio,template,jake,snell,jeremiahsnell,webdev,web,developer,clyde,texas,react,github,linkedin,google,jeremiah.snell,material,design,ui,webapp,angular,javascript",
+        "url": "https://jakesnell.dev/",
+        "location": {
+            "address": "6201 CR 223",
+            "postalCode": "79510",
+            "city": "Clyde",
+            "country": "United States",
+            "countryCode": "USA",
+            "region": "Texas"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "jeremiahjakesnell@gmail.com",
+                "url": "mailto:jeremiahjakesnell@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "jeremiah-snell",
+                "url": "https://www.linkedin.com/in/jeremiah-snell/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "jeremiahsnell",
+                "url": "https://github.com/jeremiahsnell",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Facebook",
+                "username": "jeremiah.snell",
+                "url": "https://www.facebook.com/jeremiah.snell/",
+                "x_icon": "fab fa-facebook"
+            },
+            {
+                "network": "Discord",
+                "username": "jeremiah_snell#7066",
+                "url": "https://discord.com",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Pariveda",
+            "position": "Contract Software Developer",
+            "startDate": "2022-01-31",
+            "endDate": "2022-03-31",
+            "highlights": [],
+            "summary": "Pariveda Solutions is a North American Management and Technology Consulting firm. I was brought on for a short term contract as a Contract Software Developer working with a tax processing firm to build a mobile and desktop platform for appointment scheduling, refund tracking and distribution.  \n•\tGUI Manipulation \n•\tBug Tracking and Fixing\n•\tCode Efficiency changes\n•\tFeature Creation",
+            "url": "https://www.linkedin.com/company/18355",
+            "location": null
+          },
+          {
+            "name": "Self-Directed Eduction",
+            "position": "Career Transition",
+            "startDate": "2021-01-01",
+            "endDate": "2022-01-01",
+            "highlights": [],
+            "summary": "Decided to pursue my passion for software development and working with my mentor constructed a self directed training program using Udemy and personal project to refocus my career towards becoming a full time software engineer.",
+            "url": "",
+            "location": null
+          },
+          {
+            "name": "Milsoft Utility Solutions",
+            "position": "Technical Support Specialist",
+            "startDate": "2014-06-30",
+            "endDate": "2021-01-31",
+            "highlights": [],
+            "summary": "Milsoft is an Engineering Analysis, GIS, IVR, and Outage Management software company. During my time at Milsoft I worked directly with co-op utility customers across the US and some international utilities to implement Milsoft’s platform with their technology and workflows while provide support on the backend\n•\tSQL Server Installation and Maintenance \n•\tSQL Scripting for reporting and documentation\n•\tNetwork Troubleshooting\n•\tBug Tracking and Reporting for the Milsoft products\n•\tQA testing for verification of Bug Fixes",
+            "url": "https://www.linkedin.com/company/31039",
+            "location": null
+          },
+          {
+            "name": "Hydrographics By Design",
+            "position": "Web Designer",
+            "startDate": "2010-06-30",
+            "endDate": "2014-03-31",
+            "highlights": [],
+            "summary": "Hydrographics By Design is a hydroimaging wholesaler for hydroimaging products and equipment.\n•\tCustom Website Creation\n•\tWebsite Maintenance",
+            "url": "",
+            "location": null
+          }
+    ],
+    "volunteer": [
+        {
+        }
+    ],
+    "education": [
+        {
+            "institution": "Texas A&M University",
+            "area": "Nuclear Engineering",
+            "studyType": "Bachelor of Science - BS",
+            "startDate": "2006-12-31",
+            "endDate": "2011-12-31",
+            "score": "",
+            "courses": []
+          }
+    ],
+    "awards": [
+        {
+        }
+    ],
+    "publications": [
+        {
+        }
+    ],
+    "skills": [
+        {
+            "name": "SQL",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Windows",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Integration",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Databases",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Azure DevOps",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "RXJS",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "VS Code",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "HTML",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Troubleshooting",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "C#",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "JavaScript",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Angular",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "GitHub",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Cordova",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Cascading Style Sheets (CSS)",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Microsoft SQL Server",
+            "level": "",
+            "keywords": []
+          },
+          {
+            "name": "Computer Hardware",
+            "level": "",
+            "keywords": []
+          }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "3D Printing",
+            "keywords": ["3D Printing"]
+        },{
+            "name": "Seasonal Land Management and Livestock Management",
+            "keywords": ["Hunting", "Livestock"]
+        },{
+            "name": "Build custom computers",
+            "keywords": ["Overclocking", "RGB Lighting"]
+        },{
+            "name": "Audiobooks",
+            "keywords": ["LitRPG", "Fantasy"]
+        }
+    ],
+    "references": [
+        {
+        }
+    ]
+}
