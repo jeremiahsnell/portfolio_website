@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "./ThemeProvider";
-import { Tooltip, IconButton, Zoom } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-import { Brightness4, Brightness7 } from "@material-ui/icons";
+import { CustomThemeContext } from "./CustomThemeProvider";
+import { Tooltip, IconButton, Zoom } from "@mui/material";
+import makeStyles from '@mui/styles/makeStyles';
+import { Brightness4, Brightness7 } from "@mui/icons-material";
 
 const useStyles = makeStyles((theme) => ({
     iconButton: {
-        position: "absolute",
+        position: "absolute !important",
         bottom: theme.spacing(6),
         right: theme.spacing(6),
         height: "2.5rem",
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const ThemeToggle = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme, toggleTheme } = useContext(CustomThemeContext);
     const classes = useStyles();
 
     return (
@@ -32,7 +32,7 @@ export const ThemeToggle = () => {
                 onClick={toggleTheme}
                 aria-label={"Toggle theme"}
                 className={classes.iconButton}
-            >
+                size="large">
                 {theme === "light" ? (
                     <Brightness4 className={classes.icon} />
                 ) : (

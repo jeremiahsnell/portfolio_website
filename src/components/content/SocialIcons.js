@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link, Tooltip, IconButton, Zoom } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Link, Tooltip, IconButton, Zoom } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 import Resume from '../../settings/resume.json';
 
 const useStyles = makeStyles((theme) => ({
@@ -12,8 +12,9 @@ const useStyles = makeStyles((theme) => ({
   iconButton: {
     height: '3rem',
     width: '3rem',
-    display: 'block',
+    display: 'block !important',
     marginBottom: theme.spacing(2),
+    fontSize: '0rem !important'
   },
   icon: {
     fontSize: '1.75rem',
@@ -41,7 +42,7 @@ export const SocialIcons = () => {
           color='inherit'
           aria-label={socialItem.network}
           className={classes.iconButton}
-        >
+          size="large">
           <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
         </IconButton>
       </Tooltip>

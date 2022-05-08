@@ -1,9 +1,9 @@
 import React, { lazy } from "react";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
-import { ThemeProvider } from "../components/theme/ThemeProvider";
-import { CssBaseline } from "@material-ui/core";
+import { CustomThemeProvider } from "../components/theme/CustomThemeProvider";
+import { CssBaseline } from "@mui/material";
 import { logCredits } from "../utils/logCredits";
 
 import { Home } from "../pages/Home";
@@ -15,16 +15,16 @@ export const App = () => {
     logCredits();
 
     return (
-        <ThemeProvider>
+        <CustomThemeProvider>
             <CssBaseline />
             <Router>
                 <HelmetMeta />
-                <Switch>
-                    <Route path="/" exact component={Home} />
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
                     <Route path="/resume" component={Resume} />
                     <Route path="*" component={PageNotFound} />
-                </Switch>
+                </Routes>
             </Router>
-        </ThemeProvider>
+        </CustomThemeProvider>
     );
 };

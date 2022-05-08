@@ -1,4 +1,4 @@
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core';
+import { createTheme, responsiveFontSizes, adaptV4Theme } from '@mui/material';
 import Settings from '../../settings/settings.json';
 
 export const primary = `${Settings.colors.primary}`;
@@ -7,10 +7,10 @@ export const black = `${Settings.colors.black}`;
 export const white = `${Settings.colors.white}`;
 
 export const LightTheme = responsiveFontSizes(
-  createMuiTheme({
+  createTheme(adaptV4Theme({
     headerBackground: "radial-gradient(circle,white,#f44336)",
     palette: {
-      type: 'light',
+      mode: 'light',
       primary: {
         main: primary,
       },
@@ -96,14 +96,14 @@ export const LightTheme = responsiveFontSizes(
         },
       },
     },
-  })
+  }))
 );
 
 export const DarkTheme = responsiveFontSizes(
-  createMuiTheme({
+  createTheme(adaptV4Theme({
     headerBackground: "radial-gradient(circle,#660000,black)",
     palette: {
-      type: 'dark',
+      mode: 'dark',
       primary: {
         main: primary,
       },
@@ -189,5 +189,5 @@ export const DarkTheme = responsiveFontSizes(
         },
       },
     },
-  })
+  }))
 );

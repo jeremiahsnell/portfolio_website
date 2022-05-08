@@ -1,10 +1,10 @@
 import React, { useEffect, useState, createContext } from "react";
 import { LightTheme, DarkTheme } from "./Themes";
-import { MuiThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
-export const ThemeContext = createContext();
+export const CustomThemeContext = createContext();
 
-export const ThemeProvider = ({ children }) => {
+export const CustomThemeProvider = ({ children }) => {
     const getInitialMode = () => {
         if (typeof localStorage === "undefined") return true;
         const isReturningUser = "dark" in localStorage;
@@ -38,17 +38,17 @@ export const ThemeProvider = ({ children }) => {
     }, [theme]);
 
     return (
-        <ThemeContext.Provider
+        <CustomThemeContext.Provider
             value={{
                 theme,
                 toggleTheme,
             }}
         >
-            <MuiThemeProvider
-                theme={theme === "light" ? LightTheme : DarkTheme}
-            >
-                {children}
-            </MuiThemeProvider>
-        </ThemeContext.Provider>
+                <ThemeProvider
+                    theme={theme === "light" ? LightTheme : DarkTheme}
+                >
+                    {children}
+                </ThemeProvider>
+        </CustomThemeContext.Provider>
     );
 };
